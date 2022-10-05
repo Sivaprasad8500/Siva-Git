@@ -1,11 +1,11 @@
-public class Card {
+public class Transacion {
 
     String  cardNum;
     String cardType;
     String expiry;
     Account account;
 
-    public Card(String cardNum, String cardType, String expiry, Account account) {
+    public Transacion(String cardNum, String cardType, String expiry, Account account) {
         this.cardNum = cardNum;
         this.cardType = cardType;
         this.expiry = expiry;
